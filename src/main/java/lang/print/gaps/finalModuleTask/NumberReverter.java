@@ -9,6 +9,6 @@ public class NumberReverter {
             number = number / 10;
             result.append(x);
         }
-        System.out.print(Integer.valueOf(result.toString()));
+        System.out.println(result);
     }
 }
